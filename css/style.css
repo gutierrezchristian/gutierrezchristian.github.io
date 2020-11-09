@@ -1,0 +1,666 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
+
+header {
+  display: flex;
+  position: fixed;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background-color: rgba(39, 40, 51, 0.8);
+}
+
+#vv-logo {
+  height: 100px;
+  padding: 10px 0px 10px 50px;
+  margin-right: 0px;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background:;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  list-style-type: none;
+  height: 100%;
+  width: 100%;
+  font-size: 30px;
+  background: ;
+  padding: 0px 15px;
+}
+
+nav li a {
+  color: #fafafa;
+  text-align: center;
+  text-decoration: none;
+  padding: 20px;
+
+}
+
+nav li a:hover {
+  color: teal;
+}
+
+/*--------------------------WELCOME BACKGROUND -------------*/
+#main-section {
+  /*background-image: url("https://previews.dropbox.com/p/thumb/AAbESyMiCoh1-CM8nA2_MrnDM_Hu7CkFgrgn-m1dTwuG3dXxNGG4hD_MQJkH8SyhJe3qqLIzOViWHDZCa6OnjsLafoswquU41n8V90fMuVHp2lMcQja50hLRbK_9GXiu645alHkl974x97-ueQNKZ-GAYNJX41xCdPeGwSRHJyNQaktBqMP77YjpwXwFQsZQgbFfCoafT8wpbiufoebtkBjl5cGK9-0YUBJpDFItyihC7XushdXC1y3gN0U2inpVlEoMZv4QRot7gVf93_6DCwsmfIUphgWKfewWFyX99x6wazD1MOGawK3UTNw6sooArm0kJI7g7qreM47vaNkfxKGG/p.jpeg?fv_content=true&size_mode=5"); */
+  background-image: url("/images/hd_pic_escalator.jpg");
+  background-attachment: fixed;
+  min-height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(39, 40, 51, 1);
+  height: 100%;
+  width: 100%;
+  background: ;
+}
+
+body {
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+  background-color:black;
+  width: 100%;
+  margin: 0;
+}
+
+.welcome-bg {
+  height: 100vh;
+  width: 100%;
+  padding-top: 0vh;
+  background-color: ;
+  position: relative;
+  text-align: center;
+  color: ;
+  z-index: 0;
+  
+  /*background-image: url("https://previews.dropbox.com/p/thumb/AAavm4kZ1zCReAQTrsZn7rWou5reLxNvpkniaRHK_HuoTKtMayspa3IRGOvvzlPkB4SVRrN-J-bxLVkSXASzqzcIHzWNal7XjCLbuTci7JXACCT2ZC8AlHgjlu7ojwXdTNWdzIMaJ8u-xaT6KqvI6UwoduBUwjYmaZcwrbhvktiwz5uPQyIio2amsfTAAOFX8SYHWcg4jOLXRhkligT1G81-mLXqXp4LXHCvpWf7TjApnu5kV1BlLyw_ByDI3hsrA0F8eT9GNt6iNGeXwbGUhAPE1ustKjxeplEJ6WnqZ4Q02qbnp6A_y_5MhHsphAU4rKz2RhrWp6xkUc-ImxIcD4vm/p.jpeg?fv_content=true&size_mode=5");*/
+  background-image: url("/images/hd_pic_night_man.jpg");
+  background-attachment: fixed;
+  min-height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.welcome-text {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  color: #fafafa;
+}
+
+.welcome-text h1 {
+  font-size: 5em;
+  font-family: "Titillium Web", sans-serif; 
+  width: 80%; 
+}
+
+.welcome-text h2 {font-size: 2em; width: 80%;}
+
+/*------------------------ SECTION: ABOUT ME --------------------------*/
+#about-me{
+  height: 100vh;
+  width: 100%;
+  background-color:  ; 
+  display: flex;  
+  flex-flow: row nowrap;
+  align-items:center;
+  justify-content: space-around;
+  position: relative;
+  /*background-image: url("https://previews.dropbox.com/p/thumb/AAbhUsEniDv3yBjSu9HUTQ5zQIPzpBAnd_FsfgEL9DiJ_HwXN7hHPNa3DvsdGGpIEQKhepUM-PhPL-oHjHKZPA6gCAqxKkUCQ7csTVgG6vWqHkaYoCMWKAlWetKB75XI56vrKY8d0yYLGMvW_2m7wXqPVJ96GocMHXcIQyPiBlh7zKW8aq0gPhWbgzf3881ZR0RT3N5eeYzN6dOnjvJ45ED3zY-OEzw2k1pOKDBJ9mhl1Yyg1MU2AHadkkqCNgJmtCSf4QnIEtXON062dXjdD3gBY6TLVSU4ugUf7uDg50BvmxWtjZKuSqkghGCwqi1So1SGMlun0rUgvgqNeKC7bZZO1XNkV6XS8hlu0hs8zsJr6qKLbR0ekYAj9sZGhaZatEp4cDlPY9aPsA-_CF7d5K8i/p.jpeg?fv_content=true&size_mode=5");*/
+  background-image: url("/images/about-me-wallpaper.jpg");
+  background-attachment: fixed;
+  min-height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 50px;
+}
+
+#polaroid-container{
+  max-width: 500px;
+   width: 50%; 
+  padding: 5px 5px 5px 5px;
+  margin: 20px;
+  margin-top: 100px;
+  background: #fafafa;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+}
+
+#polaroid-text{
+  display: flex;
+  flex-flow: row wrap-reverse;
+  justify-content: flex-end;
+  align-items: center;
+  background: #fafafa;
+  height: 50px;
+  font-size: 15px;;
+  font-family: 'Rock Salt', cursive;
+}
+
+#cfg-pic-wrapper{ 
+}
+
+#cfg-pic{
+    width: 100%;
+    max-height: 500px
+  }
+
+#about-me-desc{
+  width: 50%;
+  background: rgba(70, 72, 82, 0.5);
+  display: flex;
+  flex-flow: column nowrap;
+  color: #fafafa;
+  padding: 0px 20px 20px 20px;
+  margin: 10px; 20px;
+}
+
+#about-me-desc h2{
+  font-size: 40px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  background: ;
+}
+
+#about-me-desc p, {
+  font-size: 1.4em;
+  margin-bottom: 0px;
+}
+
+#resume-link{
+  /*text-decoration: none;*/
+  color: #fafafa;
+}
+
+
+
+/*------------------------ SECTION: MY WORK --------------------------*/
+
+.my-work {
+  padding-top: 0vh;
+  font-size: 1.25em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  background: ;
+
+}
+
+.work-header {
+  width: 100%;
+  height: 190px;
+  padding: 0vh;
+  color: #fafafa;
+  background: rgba(39, 40, 51, 0.7);
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-end;
+  align-content: center;
+  font-size: 3em;
+  background: ;
+  margin: 0;
+}
+
+.individual-project {
+  background: rgba(255, 255, 255, 0.8);
+  color: black;
+  
+  max-width: 1200px;
+  min-width: 300px;
+  padding: 20px;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: space-around;
+  margin-bottom: 50px;
+  margin-top: 0;
+  color: ;
+  
+}
+
+.project-graphic-sect {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  max-width: 100%;
+}
+
+.pic-wrapper{
+  width: 560px;
+  height: 315px;
+  margin: 10px;
+  border-width: 0.5px;
+  border-style: solid;
+  border-color: black;
+}
+
+.project-pic {
+  width: 100%;
+  height: 100%;  
+}
+
+.vid-wrapper {
+  margin: 10px;
+  background: ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  border-width: 0.5px;
+  border-style: solid;
+  border-color: black;
+}
+
+.project-desc {
+  display: flex;
+  flex-direction: column;
+  background-color: ;
+  margin-left: 30px;
+  padding-right: 20px;
+  max-width: 100%;
+  flex-wrap: wrap;
+}
+
+.bullets a {
+  color: black;
+}
+
+.project-desc h4 {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 10px;
+  padding-left: 20px;
+  align-self: flex-start;
+}
+
+/*------------------- SECTION: CONTACT ME ----------------*/
+.contact-me {
+  min-height: 100vh;
+  padding-top: 70px;
+  text-align: center;
+  background: ;
+}
+.goodbye-text {
+  color: #fafafa;
+}
+
+.contact-me h6 {
+  font-size: 50px;
+  margin-bottom: 50px;
+}
+.contact-me p {
+  font-size: 20px;
+}
+
+.contact-me p a {
+  color: #fafafa;
+}
+/*-----------------------------CONTACT FORM -----------------------*/
+
+.survey-content {
+  background-color: rgba(255, 255, 255, 0.8);
+  margin: 0 auto;
+  width: 75%;
+  max-width: 1200px;
+  padding: 10px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  text-align: center;
+  font-family: "Raleway", Helvetica, sans-serif;
+  min-width: 300px;
+}
+
+.labels {
+  display: inline-block;
+  text-align: right;
+  width: 40%;
+  padding: 5px;
+  vertical-align: top;
+  margin-top: 10px;
+}
+
+.rightColumnLayout {
+  display: inline-block;
+  text-align: left;
+  width: 48%;
+  vertical-align: middle;
+}
+
+.input-field {
+  height: 20px;
+  width: 280px;
+  padding: 5px;
+  margin: 10px;
+  border: 1px solid #c0c0c0;
+  border-radius: 2px;
+}
+
+.age-group,
+input[type="checkbox"] {
+  float: left;
+  margin-right: 5px;
+}
+
+#submit {
+  background-color: darkorange;
+  border-radius: 4px;
+  color: #fafafa;
+  font-size: 1em;
+  height: 40px;
+  width: 96px;
+  margin: 10px;
+  border: 0px solid;
+}
+
+.dropdown {
+  height: 35px;
+  width: 140px;
+  padding: 5px;
+  margin: 10px;
+  margin-top: 15px;
+  border: 1px solid #c0c0c0;
+  border-radius: 2px;
+}
+
+.radio,
+.checkbox {
+  position: relative;
+  left: -43px;
+  margin-left: 10px;
+  display: block;
+  padding-bottom: 10px;
+}
+
+/*--------------------------- FOOTER SECTION ------------------*/
+footer {
+  text-align: center;
+  position: ;
+  z-index: 2;
+  font-size: 1.5em;
+  padding: 15px;
+  background: rgba(39, 40, 51, 1);
+  color: #fafafa;
+  line-height: 20px;
+  max-width: 100vw;
+  left: 0px;
+  right: 0px;
+}
+
+/*---------------------------- MEDIA QUERIES: TABLETS 1200px-------------------------------*/
+
+@media (max-width: 1200px) {
+  .contact-me p {font-size: 20px;}
+  footer {font-size: 1.2em;}
+  .my-work {padding: 0;}
+  
+   #about-me{flex-flow: column-reverse nowrap;height: 100%;}
+    
+   #about-me-desc{
+    width: 95%;
+    margin: 0px;
+    padding:10px;   
+  }
+  
+   #about-me-desc p{font-size: 17px;}
+  #about-me-desc h2{font-size: 30px;}
+  
+  #polaroid-container{margin-top: 30px;}  
+  #polaroid-container{margin-top: 130px;}
+  #polaroid-text{font-size:10px;}
+  
+  
+}
+
+/*---------------------------- MEDIA QUERIES: SIDEWAYS MOBILE PHONES 833px-------------------------------*/
+@media (max-width: 833px) {
+  .welcome-bg {
+  /*background-image: url("https://previews.dropbox.com/p/thumb/AAavm4kZ1zCReAQTrsZn7rWou5reLxNvpkniaRHK_HuoTKtMayspa3IRGOvvzlPkB4SVRrN-J-bxLVkSXASzqzcIHzWNal7XjCLbuTci7JXACCT2ZC8AlHgjlu7ojwXdTNWdzIMaJ8u-xaT6KqvI6UwoduBUwjYmaZcwrbhvktiwz5uPQyIio2amsfTAAOFX8SYHWcg4jOLXRhkligT1G81-mLXqXp4LXHCvpWf7TjApnu5kV1BlLyw_ByDI3hsrA0F8eT9GNt6iNGeXwbGUhAPE1ustKjxeplEJ6WnqZ4Q02qbnp6A_y_5MhHsphAU4rKz2RhrWp6xkUc-ImxIcD4vm/p.jpeg?fv_content=true&size_mode=5");*/
+  background-image: url("/images/hd_pic_night_man_SIDEWAYS_1.jpg");
+  background-attachment: scroll;
+    background-size: cover;
+  }
+  
+  #about-me{
+    flex-flow: column nowrap;
+    background-image: url("/images/about-me-wallpaper-SIDEWAYS.jpg"); 
+    background-attachment: scroll;
+    background-size: 100% 100%; 
+    height: 100%;  
+    margin-top: 0px;
+  }
+    
+    #about-me-desc{
+    width: 95%;
+    margin: 80px 0px 0px 0px;
+    padding:10px;  
+    padding-top: 0px;      
+  }
+  
+  .welcome-text {justify-content: flex-end;height: 60%;}
+  
+  #polaroid-container{margin-top: 30px;}
+  
+  
+  #main-section {background-image: none;}
+  header {max-width: 100vw; }
+  
+  nav ul {
+    font-size: 30px;
+    justify-content: space-around;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    background: ;
+    max-width: 100%;
+    align-items: center;   
+    padding: 0px 0px;
+  }
+  
+  nav ul li a {padding: 5px;}
+  
+  #vv-logo {
+    height: 50px;
+    padding-left: 5px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+  }
+  
+  .contact-me h6 {font-size: 30px; margin-top: 20px;}
+  .contact-me p {font-size: 17px;}
+  footer {font-size: 0.9em;}
+  .welcome-text h1 {font-size: 2.5em;}
+  .welcome-text h2 {font-size: 1.5em;}
+  
+  .work-header{
+    height: 90px; 
+    font-size: 2em;  
+    padding-top: 30px;
+  }
+  
+  .input-field {width: 80%;}
+  select {width: 90%;}
+  
+   /*#about-me{
+    flex-flow: column-reverse nowrap;
+  }
+  
+   #about-me-desc{
+    width: 95%;
+    margin: 0px;
+    padding:10px;   
+  }
+  
+   #about-me-desc p{
+    font-size: 2vw;
+  }
+  
+   #polaroid-container{
+    margin-top: 30px;
+  }*/
+}
+/*---------------------------- MEDIA QUERIES: UPRIGHT MOBILE PHONES 560px -------------------------------*/
+@media (max-width: 560px) {
+  .welcome-bg {
+  /*background-image: url("https://previews.dropbox.com/p/thumb/AAavm4kZ1zCReAQTrsZn7rWou5reLxNvpkniaRHK_HuoTKtMayspa3IRGOvvzlPkB4SVRrN-J-bxLVkSXASzqzcIHzWNal7XjCLbuTci7JXACCT2ZC8AlHgjlu7ojwXdTNWdzIMaJ8u-xaT6KqvI6UwoduBUwjYmaZcwrbhvktiwz5uPQyIio2amsfTAAOFX8SYHWcg4jOLXRhkligT1G81-mLXqXp4LXHCvpWf7TjApnu5kV1BlLyw_ByDI3hsrA0F8eT9GNt6iNGeXwbGUhAPE1ustKjxeplEJ6WnqZ4Q02qbnp6A_y_5MhHsphAU4rKz2RhrWp6xkUc-ImxIcD4vm/p.jpeg?fv_content=true&size_mode=5");*/
+  background-image: url("/images/hd_pic_night_man_SMALL_1.jpg");
+  background-attachment: scroll;
+  min-height: 500px;
+}
+  
+  #about-me{
+    flex-flow: column-reverse nowrap;
+    /*background-image :url("https://previews.dropbox.com/p/thumb/AAbkn2O-EiTWJUFcxJVPC7U2DTmzov_RnUrZzgqRw1VaaNw_5CL5GTGoDzkcWbC8hvIdwh1b8g932rE9_cgw1uwFImUIM7P4qoAi08FS62nYKqZ0e3z71Wt_fLqfXd2BCZWod8XompuUP2W5wJub-6ou7kmjuIgn8mdxxtKpCmb5sYTWRGURyjp9MZnuMvbJv7iToe-5bwCrn_G4DhQp7Z10GNkpA1vu7IbUiDNevetkN_DEM_WGHmNj0SFkKQkXgBK5iUOnV6M3owa5L6VCVZcE_OzaLQJwfDPokvHIShXMHoSDA3D2jL_uewS338cgonu14rpHqP6rPjMhrXir2nVP/p.jpeg?fv_content=true&size_mode=5");*/
+   background-image: url("/images/about-me-wallpaper-SMALL.jpg"); 
+    background-attachment: scroll;
+    background-size: 100% 100%; 
+    height: 100%;
+    
+  }
+  
+  #main-section {
+  /*background-image: url("https://previews.dropbox.com/p/thumb/AAal-qf-ba56d-gAyzPkWRRxuhrtQ8zjq4nSaBeqtnxQz-gdqVwjuTRpoc6yLZvS6AAirOsEIYOHYYIlmMaM7je3gTW3QZ_XaC9zBU_ugTOJDyVPn_uIT_nCLrPyzW6B55RICGf6EFgRjC0xwtfvMqYwoBEOOlutWX4EV57a4-0UPTeNMca7XGa7M7oM-AQdzdn32kIkfoNkPb0_2VjlGVM6Vu41LYQZG1uOmx-iYX_eprr9ARwU2AYnvr857tDeHQLI9-siX2Bjk7olDR_5rliqORL8Y0IXsM2AOezItP-1Ykb3vovlX8JuE8heTNWr_VIRroH_m8TvIP_jknilr0Yd/p.jpeg?fv_content=true&size_mode=5"); */
+  /*background-image: url("/images/hd_pic_escalator_SMALL.jpg");
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  height: 100%;
+  min-height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;*/
+    
+    background-image: none;
+  }
+  
+  .welcome-text {justify-content: center;height: 80%;}
+  
+  #polaroid-container{
+    margin-top: 70px;
+    background: ;
+  }
+  #about-me-desc{
+    width: 95%;
+    margin: 0px;
+    padding:10px;  
+  }
+  
+  #about-me-desc p{
+    font-size: 17px;
+  }
+  
+  header {max-width: 100vw; }
+  
+  nav ul {
+    font-size: 7vw;
+    justify-content: space-around;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    background: ;
+    max-width: 100%;
+    align-items: center;   
+    padding: 0px 0px;
+  }
+  
+  nav ul li a {
+    padding: 5px;
+  }
+  
+  #vv-logo {
+    height: 50px;
+    padding-left: 5px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+  }
+
+  .contact-me p {font-size: 17px;}
+  footer {font-size: 0.9em;}
+  .welcome-text h1 {font-size: 2.5em;}
+  .welcome-text h2 {font-size: 1.5em;}
+  
+  .work-header{
+    height: 90px; 
+    font-size: 2em;  
+    padding-top: 20px;
+  }
+
+  .individual-project{
+    padding-right: 1px;
+    padding-left: 1px;
+  }
+  
+  .project-pic {
+    margin: 0px 0px 1px 0px;
+    padding: 0;  
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .project-graphic-sect{
+    width: 100%;
+  }
+
+  .vid-wrapper, .pic-wrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    padding-top: 25px;
+    height: 0;
+    width: 100%;    
+    margin: 0px 0px 5px 0px;
+  }
+  
+  .vid-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+   .project-desc {
+    padding-left: 0;
+    margin-left: 0;
+  }
+  
+  .contact-me h6 {
+  font-size: 30px;
+  margin-top: 20px;
+}
+  
+  .labels {width: 100%; text-align: left;}
+  .rightColumnLayout {width: 80%; float: left;}
+  .input-field {width: 100%;}
+  select {width: 100%;}
+  
+}
+
+
+
+/*
+@media screen and (max-width: 520px) {
+  .labels {width: 100%; text-align: left;}
+  .rightColumnLayout {width: 80%; float: left;}
+  .input-field {width: 100%;}
+  select {width: 100%;}
+}
+*/
