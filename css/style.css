@@ -57,7 +57,7 @@ nav li a:hover {
   /*background-image: url("https://previews.dropbox.com/p/thumb/AAbESyMiCoh1-CM8nA2_MrnDM_Hu7CkFgrgn-m1dTwuG3dXxNGG4hD_MQJkH8SyhJe3qqLIzOViWHDZCa6OnjsLafoswquU41n8V90fMuVHp2lMcQja50hLRbK_9GXiu645alHkl974x97-ueQNKZ-GAYNJX41xCdPeGwSRHJyNQaktBqMP77YjpwXwFQsZQgbFfCoafT8wpbiufoebtkBjl5cGK9-0YUBJpDFItyihC7XushdXC1y3gN0U2inpVlEoMZv4QRot7gVf93_6DCwsmfIUphgWKfewWFyX99x6wazD1MOGawK3UTNw6sooArm0kJI7g7qreM47vaNkfxKGG/p.jpeg?fv_content=true&size_mode=5"); */
   background-image: url("/images/hd_pic_escalator.jpg");
   background-attachment: fixed;
-  min-height: 500px;
+  /*min-height: 500px; TEST*/
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -88,7 +88,7 @@ body {
   /*background-image: url("https://previews.dropbox.com/p/thumb/AAavm4kZ1zCReAQTrsZn7rWou5reLxNvpkniaRHK_HuoTKtMayspa3IRGOvvzlPkB4SVRrN-J-bxLVkSXASzqzcIHzWNal7XjCLbuTci7JXACCT2ZC8AlHgjlu7ojwXdTNWdzIMaJ8u-xaT6KqvI6UwoduBUwjYmaZcwrbhvktiwz5uPQyIio2amsfTAAOFX8SYHWcg4jOLXRhkligT1G81-mLXqXp4LXHCvpWf7TjApnu5kV1BlLyw_ByDI3hsrA0F8eT9GNt6iNGeXwbGUhAPE1ustKjxeplEJ6WnqZ4Q02qbnp6A_y_5MhHsphAU4rKz2RhrWp6xkUc-ImxIcD4vm/p.jpeg?fv_content=true&size_mode=5");*/
   background-image: url("/images/hd_pic_night_man.jpg");
   background-attachment: fixed;
-  min-height: 500px;
+  /*min-height: 500px; TEST*/
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -124,7 +124,7 @@ body {
   /*background-image: url("https://previews.dropbox.com/p/thumb/AAbhUsEniDv3yBjSu9HUTQ5zQIPzpBAnd_FsfgEL9DiJ_HwXN7hHPNa3DvsdGGpIEQKhepUM-PhPL-oHjHKZPA6gCAqxKkUCQ7csTVgG6vWqHkaYoCMWKAlWetKB75XI56vrKY8d0yYLGMvW_2m7wXqPVJ96GocMHXcIQyPiBlh7zKW8aq0gPhWbgzf3881ZR0RT3N5eeYzN6dOnjvJ45ED3zY-OEzw2k1pOKDBJ9mhl1Yyg1MU2AHadkkqCNgJmtCSf4QnIEtXON062dXjdD3gBY6TLVSU4ugUf7uDg50BvmxWtjZKuSqkghGCwqi1So1SGMlun0rUgvgqNeKC7bZZO1XNkV6XS8hlu0hs8zsJr6qKLbR0ekYAj9sZGhaZatEp4cDlPY9aPsA-_CF7d5K8i/p.jpeg?fv_content=true&size_mode=5");*/
   background-image: url("/images/about-me-wallpaper.jpg");
   background-attachment: fixed;
-  min-height: 500px;
+  /*min-height: 500px; TEST*/
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -522,7 +522,7 @@ footer {
   /*background-image: url("https://previews.dropbox.com/p/thumb/AAavm4kZ1zCReAQTrsZn7rWou5reLxNvpkniaRHK_HuoTKtMayspa3IRGOvvzlPkB4SVRrN-J-bxLVkSXASzqzcIHzWNal7XjCLbuTci7JXACCT2ZC8AlHgjlu7ojwXdTNWdzIMaJ8u-xaT6KqvI6UwoduBUwjYmaZcwrbhvktiwz5uPQyIio2amsfTAAOFX8SYHWcg4jOLXRhkligT1G81-mLXqXp4LXHCvpWf7TjApnu5kV1BlLyw_ByDI3hsrA0F8eT9GNt6iNGeXwbGUhAPE1ustKjxeplEJ6WnqZ4Q02qbnp6A_y_5MhHsphAU4rKz2RhrWp6xkUc-ImxIcD4vm/p.jpeg?fv_content=true&size_mode=5");*/
   background-image: url("/images/hd_pic_night_man_SMALL_1.jpg");
   background-attachment: scroll;
-  min-height: 500px;
+  /*min-height: 500px; TEST*/ 
 }
   
   #about-me{
