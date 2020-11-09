@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Christian Gutierrez's Personal Website </title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <!DOCTYPE html>
+<html>
+
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Rock+Salt" rel="stylesheet">
+  <meta name="site description" content="This is the personal website for Christian Gutierrez">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Christian's Website</title>
+</head>
+
+<body>
+  <header>
+   <a href="#welcome-section"><img id="vv-logo" src="images/Virtual_Velociraptor_Logo_White.png" alt="logo" onmouseover="hover(this);" onmouseout="unhover(this);" /></a>
+
+    <!--<a href="#welcome-section"><img id="vv-logo" src="https://previews.dropbox.com/p/thumb/AAbRMftbEX9ugf7JXKy53Jga7YZuIB4SX_fb-QfFNqP3NfcKVp8SOjWxubeJSHXyq9P_j9NWYZ9D9j7J0OC8yMZdxFaIs52VvkSWpAoU7hQ7VvgYvF_zqNike3CD03PNVZ8bhI9lX-5DFvltcxYTz965Uy_J9cnMHliy__Z7Vh1Lptvf_aYfxZIPua3KgzTUUypHXRMOGO5215oqAXtuix3RmjWY6GXODZViCxVrDIm2tIArp7S62y3WqXIqjg2NOM1WWElnjsMQ_hgm0h5ff5OuSO78Xgi63hVJHtnoTjSBbAD-bkI2v8E2fLQRczeZyTb2ZjHK3ex1WvenKXXXQqR_/p.png?fv_content=true&size_mode=5" alt="logo" onmouseover="hover(this);" onmouseout="unhover(this);" /></a>-->
+    <nav>
+      <ul id='navbar'>
+        <li><a href="https://gutierrezchristian.github.io/home/about.html" target="_blank">about</a></li>
+        <!-- <li><a href="#about-me">about</a></li> -->
+        <li><a href="https://gutierrezchristian.github.io/home/projects.html" target="_blank">projects</li>
+        <li><a href="https://gutierrezchristian.github.io/home/contact.html" target="_blank">contact</li>
+      </ul>
+    </nav>
+  </header>
+
+  <!---------------------------------- CONTACT -------------------->
+  <main id="main-section">
+
+    <!--------------------------SECTION: CONTACT ME TEXT----------------------------------->
+    <div id="contact" class="contact-me">
+      <div class="goodbye-text">
+        <h6>Thanks for checking out my work</h6>
+        <p>If you'd like to get in touch, please <a href="mailto:gutierrezchristianf@gmail.com" class="contact-details">reach me via email</a> or drop me a <a id="profile-link" href="https://www.linkedin.com/in/christianfgutierrez" target="_blank" class="contact-details">message on LinkedIn</a>.</p>
+        <p>If you're interested in collaborating on a VR project, please fill out the contact form below:</p>
+      </div>
+
+      <!--------------------------SECTION: CONTACT FORM ----------------------------------->
+      <div class="survey-content">
+        <div id="description-id">
+          <p id="description">Let's collaborate!</p>
+        </div>
+        <form id="survey-form" action="https://formspree.io/inquiry@virtualvelociraptor.com" method="POST" />
+        <input type="hidden" name="_next" value="https://www.virtualvelociraptor.com" />
+        <input type="hidden" name="_subject" value="VirtualVelociraptor.com Contact Form Response" />
+        <input type="text" name="_gotcha" style="display:none" />
+
+          <div class="rowLayout">
+            <div class="labels"><label id="name-label">* Name:</label></div>
+            <div class="rightColumnLayout"><input type="text" name="name" id="name" class="input-field" placeholder="Enter your Name" required><br></div>
+          </div>
+
+          <div class="rowLayout">
+            <div class="labels"><label id="email-label">* Email: </label></div>
+            <div class="rightColumnLayout"><input type="email" name="email" id="email" class="input-field" placeholder="Enter your Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required></div><br>
+          </div>
+
+          <div class="rowLayout">
+            <div class="labels"><label id="number-label">* Years working on VR: </label></div>
+            <div class="rightColumnLayout"><input type="number" id="number" class="input-field" pattern="[0-9]" min="0" max="100" placeholder="Enter Number of Years" required><br></div>
+          </div>
+
+          <div class="rowLayout">
+            <div class="labels"><label id="country-label">* Country of Residence: </label></div>
+            <div class="rightColumnLayout"><input type="text" name="country" class="input-field" placeholder="Enter your Country Name" required><br></div>
+          </div>
+
+          <div class="labels">
+            <label for="age-list">What is your age group?</label>
+          </div>
+          <div class="rightColumnLayout">
+            <ul id="ages-list" style="list-style: none;">
+              <li class="radio"><label for="minor"><input type="radio" value="minor" name="age" class="age-group" required> Less than 18<br></label></li>
+              <li class="radio"><label for="18-22"><input type="radio" value="18-21" name="age" required> 18-22<br></label></li>
+              <li class="radio"><label for="23-29"><input type="radio" value="23-29" name="age" required> 23-29<br></label></li>
+              <li class="radio"><label for="30-39"><input type="radio" value="30-39" name="age" required> 30-39<br></label></li>
+              <li class="radio"><label for="40-49"><input type="radio" value="40-49" name="age" required> 40-49<br></label></li>
+              <li class="radio"><label for="50-59"><input type="radio" value="50-59" name="age" required> 50-59<br></label></li>
+              <li class="radio"><label for="60+"><input type="radio" value="60+" name="age" required> 60+<br></label>
+            </ul>
+          </div>
+
+          <div class="labels">
+            <label for="skills-list">What areas are you skilled in?<br>(Check all that apply): </label>
+          </div>
+          <div class="rightColumnLayout">
+            <ul id="skills-list" style="list-style: none;">
+              <li class="checkbox"><label for="front-dev"><input type="checkbox" value="front-dev" name="skills1"> Front-End Development<br></label></li>
+              <li class="checkbox"><label for="back-dev"><input type="checkbox" value="back-dev" name="skills2" > Back-End Developmet<br></label></li>
+              <li class="checkbox"><label for="ux-design"><input type="checkbox" value="ux-design" name="skills3"> UX Design<br></label></li>
+              <li class="checkbox"><label for="artist"><input type="checkbox" value="artists" name="skills4"> Digital Art / Illustration<br></label></li>
+              <li class="checkbox"><label for="3d-modeling"><input type="checkbox" value="3d-modeling" name="skills5">3D Modeling<br></label></li>
+              <li class="checkbox"><label for="writing"><input type="checkbox" value="writing" name="skills6"> Creative Writing<br></label></li>
+              <li class="checkbox"><label for="video"><input type="checkbox" value="video" name="skills7"> Video Production<br></label></li>
+            </ul>
+          </div>
+
+          <div class="labels">What is your current occupation?</div>
+          <div class="rightColumnLayout">
+            <select name="occupation" id="dropdown" class="dropdown" required>
+              <option disabled selected value>Select an option</option>
+              <option value="student">Student</option>
+              <option value="full-job">Full Time Job</option>
+              <option value="job-student">Job+Student</option>
+              <option value="not-say">Prefer Not Say</option>
+              <option value="other">Other</option>
+            </select><br>
+          </div>
+
+          <div class="rowLayout">
+            <div class="labels">
+              <label for="comments">Comments, Questions or Suggestions?</label>
+            </div>
+            <div class="rightColumnLayout">
+              <textarea name="comment"  id="comments" class="input-field" style="height:50px;resize:vertical;" placeholder="Enter your comment here..."></textarea>
+            </div>
+          </div>
+
+          <button type="submit" id="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+
+    <!--------------------------SECTION: FOOTER ----------------------------------->
+    <footer>
+      <p>&copy; Copyright Christian Gutierrez 2020.<p></p>All rights reserved.</p>
+    </footer>
+  </main>
+</body>
+
+</html
+  
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
