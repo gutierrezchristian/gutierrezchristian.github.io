@@ -1,5 +1,19 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
 
+.skip-to-content-link {
+  background: darkorange;
+  height: 30px;
+  left: 50%;
+  padding: 8px;
+  position: absolute;
+  transform: translateY(-250%);
+  transition: transform 0.3s;
+}
+
+.skip-to-content-link:focus {
+  transform: translateY(0%);
+}
+
 header {
   display: flex;
   position: fixed;
@@ -11,7 +25,7 @@ header {
   left: 0;
   right: 0;
   width: 100%;
-  background-color: rgba(39, 40, 51, 0.8);
+  background-color: rgba(39, 40, 51, 1.0);
 }
 
 #vv-logo {
@@ -49,7 +63,11 @@ nav li a {
 }
 
 nav li a:hover {
-  color: teal;
+  color: black;
+}
+
+.active-nav {
+  text-decoration: line-through;
 }
 
 /*--------------------------WELCOME BACKGROUND -------------*/
@@ -61,7 +79,8 @@ nav li a:hover {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: rgba(39, 40, 51, 1);
+  /*background-color: rgba(39, 40, 51, 1);*/
+  background-color:black;
   height: 100%;
   width: 100%;
   background: ;
@@ -162,12 +181,12 @@ body {
 
 #about-me-desc{
   width: 50%;
-  background: rgba(70, 72, 82, 0.5);
+  background: whitesmoke;
   display: flex;
   flex-flow: column nowrap;
-  color: #fafafa;
+  color: black;
   padding: 0px 20px 20px 20px;
-  margin: 10px; 20px;
+  margin: 10px; 
 }
 
 #about-me-desc h2{
@@ -184,7 +203,7 @@ body {
 
 #resume-link{
   /*text-decoration: none;*/
-  color: #fafafa;
+  color: black;
 }
 
 
@@ -208,7 +227,7 @@ body {
   height: 190px;
   padding: 0vh;
   color: #fafafa;
-  background: rgba(39, 40, 51, 0.7);
+  background: black;
   display: flex;
   flex-flow: column wrap;
   justify-content: flex-end;
@@ -219,7 +238,7 @@ body {
 }
 
 .individual-project {
-  background: rgba(255, 255, 255, 0.8);
+  background: whitesmoke;
   color: black;
   
   max-width: 1200px;
@@ -315,7 +334,7 @@ body {
 /*-----------------------------CONTACT FORM -----------------------*/
 
 .survey-content {
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: whitesmoke;
   margin: 0 auto;
   width: 75%;
   max-width: 1200px;
@@ -397,7 +416,8 @@ footer {
   z-index: 2;
   font-size: 1.5em;
   padding: 15px;
-  background: rgba(39, 40, 51, 1);
+  /*background: rgba(39, 40, 51, 1);*/
+  background: black;
   color: #fafafa;
   line-height: 20px;
   max-width: 100vw;
