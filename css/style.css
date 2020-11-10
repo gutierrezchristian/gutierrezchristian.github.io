@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
 
 .skip-to-content-link {
-  background: darkorange;
+  background: whitesmoke;
   height: 30px;
   left: 50%;
   padding: 8px;
@@ -63,11 +63,12 @@ nav li a {
 }
 
 nav li a:hover {
-  color: black;
+  color: #fafafa;
 }
 
 .active-nav {
   text-decoration: line-through;
+  color: #fafafa
 }
 
 /*--------------------------WELCOME BACKGROUND -------------*/
@@ -380,7 +381,7 @@ input[type="checkbox"] {
 }
 
 #submit {
-  background-color: darkorange;
+  background-color: darkblue;
   border-radius: 4px;
   color: #fafafa;
   font-size: 1em;
