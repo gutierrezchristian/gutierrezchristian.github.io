@@ -83,6 +83,7 @@ nav li a:hover {
 
 /*--------------------------WELCOME BACKGROUND -------------*/
 #main-section {
+  /*background-color:black;*/
   /*background-image: url("https://previews.dropbox.com/p/thumb/AAbESyMiCoh1-CM8nA2_MrnDM_Hu7CkFgrgn-m1dTwuG3dXxNGG4hD_MQJkH8SyhJe3qqLIzOViWHDZCa6OnjsLafoswquU41n8V90fMuVHp2lMcQja50hLRbK_9GXiu645alHkl974x97-ueQNKZ-GAYNJX41xCdPeGwSRHJyNQaktBqMP77YjpwXwFQsZQgbFfCoafT8wpbiufoebtkBjl5cGK9-0YUBJpDFItyihC7XushdXC1y3gN0U2inpVlEoMZv4QRot7gVf93_6DCwsmfIUphgWKfewWFyX99x6wazD1MOGawK3UTNw6sooArm0kJI7g7qreM47vaNkfxKGG/p.jpeg?fv_content=true&size_mode=5"); */
   background-image: url("/images/hd_pic_escalator.jpg");
   background-attachment: fixed;
@@ -91,10 +92,9 @@ nav li a:hover {
   background-repeat: no-repeat;
   background-size: cover;
   /*background-color: rgba(39, 40, 51, 1);*/
-  background-color:black;
+  
   height: 100%;
   width: 100%;
-  background: ;
 }
 
 body {
@@ -116,7 +116,7 @@ body {
   z-index: 0;
   
   /*background-image: url("https://previews.dropbox.com/p/thumb/AAavm4kZ1zCReAQTrsZn7rWou5reLxNvpkniaRHK_HuoTKtMayspa3IRGOvvzlPkB4SVRrN-J-bxLVkSXASzqzcIHzWNal7XjCLbuTci7JXACCT2ZC8AlHgjlu7ojwXdTNWdzIMaJ8u-xaT6KqvI6UwoduBUwjYmaZcwrbhvktiwz5uPQyIio2amsfTAAOFX8SYHWcg4jOLXRhkligT1G81-mLXqXp4LXHCvpWf7TjApnu5kV1BlLyw_ByDI3hsrA0F8eT9GNt6iNGeXwbGUhAPE1ustKjxeplEJ6WnqZ4Q02qbnp6A_y_5MhHsphAU4rKz2RhrWp6xkUc-ImxIcD4vm/p.jpeg?fv_content=true&size_mode=5");*/
-  background-image: url("/images/hd_pic_night_man.jpg");
+  background-image: url("hd_pic_night_man.jpg");
   background-attachment: fixed;
   /*min-height: 500px; TEST*/
   background-position: center;
@@ -735,3 +735,10 @@ footer {
   select {width: 100%;}
 }
 */
+
+@media (prefers-reduced-motion: reduce) {
+  .logoanim {
+    /* Stop the animation */
+    animation: none;
+  }
+}
